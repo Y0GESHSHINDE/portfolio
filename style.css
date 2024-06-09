@@ -1,22 +1,22 @@
-
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-*{
+* {
    padding: 0px;
    margin: 0px;
-  font-family: "Kalam", cursive;
+   font-family: "Pacifico", cursive;
 
 }
 
-main{
-   background-color: ffb4a2;
+main {
+   display: block;
+   background-color: edf6f9;
    height: 100%;
    width: 100%;
    /* display: flex; */
    /* justify-content: space-between; */
 }
 
-.imp{
+.imp {
    margin: 0 50;
    position: relative;
    height: 50%;
@@ -25,67 +25,121 @@ main{
    display: flex;
    justify-content: space-around;
    /* text-align: center;    */
-  
+
 }
+
 .imp span {
    font-size: 2rem;
    font-weight: 500;
 }
-.first h1{
+
+.first h1 {
    font-size: 60;
 }
-#purple{
+
+#purple {
    font-size: 60px;
    font-weight: 500;
    color: purple;
 }
 
-.first{
+.first {
    /* background-color: yellow; */
    align-self: center;
 
 }
-.second{
+
+.second {
    /* background-color: yellow; */
    align-self: center;
 
 }
-.second img{
+
+.second img {
    margin-top: 50px;
    height: 400px;
+}
+.btndiv{
+   margin-top: 10px;
+   display: flex;
+}
+
+.btndiv2{
+   display: none;
+}
+#download {
+   
+   margin-right: 50px;
+   background-color: #df43ae;
+   color: white;
+   border-color: #df43ae;
+   margin-top: 10px;
+
+}
+#download a{
+   text-decoration: none;
+   color: white;
 }
 
 
 @media (max-width: 950px) {
-   .imp{
+   .imp {
       display: block;
       text-align: center;
    }
-   .first{
+
+   .first {
       /* background-color: red; */
       align-self: center;
    }
-   .second{
-      top: 50px;
+
+   .second {
+      top: 30px;
       position: relative;
       /* background: gray; */
-
-   
    }
-   .second img{
-      height: 200px;
+
+   #element {
+      font-size: 1.2rem;
+   }
+
+   .second img {
+      height: 180px;
       margin-top: 0;
    }
+
    .imp span {
       font-size: 1rem;
       font-weight: 500;
    }
-   .first h1{
+
+   .first h1 {
       font-size: 30;
    }
-   #purple{
+
+   #purple {
       font-size: 30;
       font-weight: 500;
       color: purple;
    }
+
+
+   .btndiv {
+      display: none;
+   }
+
+   .btndiv2{
+      margin-top: 50px;
+      display: block;
+   }
+   #download {
+   
+      margin-right: 5px;
+      background-color: #df43ae;
+      color: white;
+      border-color: #df43ae;
+      margin-top: 10px;
+   
+   }
+
 }
