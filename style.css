@@ -93,7 +93,8 @@ main {
 .intro {
    display: none;
 }
-.intro1{
+
+.intro1 {
    position: relative;
    width: 50%;
    left: 25%;
@@ -103,17 +104,22 @@ main {
    font-family: "IBM Plex Sans", sans-serif;
    /* background-color: #df43ae; */
 }
-.intro1 h1{
+
+.intro1 h1 {
    font-family: "Rowdies", sans-serif;
    font-weight: 500;
 }
-.intro1 b{
+
+.intro1 b {
    color: tomato;
    font-family: "IBM Plex Sans", sans-serif;
    font-weight: 1000;
 }
 
 @media (max-width: 950px) {
+   main{
+      height: 100%;
+   }
    .imp {
       display: block;
       text-align: center;
@@ -121,12 +127,14 @@ main {
    }
 
    .first {
+      position: relative;
+      top: 30;
       /* background-color: red; */
       align-self: center;
    }
 
    .second {
-      top: 30px;
+      top: 40px;
       position: relative;
       /* background: gray; */
    }
@@ -137,7 +145,7 @@ main {
 
    .second img {
       height: 180px;
-      margin-top: 0;
+      margin-top: 2;
    }
 
    .imp span {
@@ -147,6 +155,7 @@ main {
 
    .first h1 {
       font-size: 30;
+      
    }
 
    #purple {
@@ -164,7 +173,7 @@ main {
       margin-top: 58px;
       display: block;
       /* background-color: #df43ae; */
-    
+
 
    }
 
@@ -175,10 +184,10 @@ main {
       top: 50px;
    }
 
-   .intro b{
+   .intro b {
       color: tomato;
-   font-family: "IBM Plex Sans", sans-serif;
-   font-weight: 1000;
+      font-family: "IBM Plex Sans", sans-serif;
+      font-weight: 1000;
 
    }
 
@@ -198,23 +207,25 @@ main {
       margin-top: 10px;
 
    }
-   .intro1{
+
+   .intro1 {
       display: none;
    }
 
 }
 
-@media (max-width: 490px){
-   .intro1{
+@media (max-width: 490px) {
+   .intro1 {
       display: none;
    }
-   main{
-      height: 120%;
+   
+   main {
+      height: 155%;
    }
 
 
    .intro h6 {
-      font-size: 12px;
+      font-size: 10;
       position: relative;
       top: 5;
 
@@ -223,12 +234,16 @@ main {
 }
 
 @media (max-width:1160px) and (min-width:950px) {
+   .intro {
+      display: none;
+   }
    .second img {
       margin-top: 50px;
       height: 250px;
    }
    .intro1{
-      font-size: 18px;
-  
+      display: block;
    }
+
+
 }
