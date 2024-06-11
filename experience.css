@@ -1,0 +1,119 @@
+.maindiv {
+   /* background-color: gold; */
+   /* align-items: center; */
+   text-align: center;
+   position: relative;
+   /* top: 80px; */
+   /* top: 30px; */
+   display: flex;
+   color: white;
+   height: 100%;
+
+}
+
+#btn {
+   position: relative;
+   top: 20px;
+   /* background-color: #df43ae; */
+   /* color: white; */
+
+}
+
+#btn a {
+   color: white;
+   text-decoration: none;
+}
+
+.achive {
+   background-color: saddlebrown;
+   border-radius: 30px;
+   width: 80%;
+   height: 50%;
+   top: 100px;
+   position: relative;
+   margin-left: 10%;
+
+   align-items: center;
+}
+
+.achive h5 {
+   position: relative;
+   top: 15px;
+}
+
+.expe {
+   /* top: 10; */
+   background-color: slategrey;
+   border-radius: 30px;
+   width: 80%;
+   height: 50%;
+   position: relative;
+   top: 100px;
+   margin-right: 10%;
+   margin-left: 10%;
+}
+
+.expe h5 {
+   position: relative;
+   top: 15px;
+}
+
+.achive span img {
+   border-radius: 20px;
+   border-style: solid;
+   top: 30px;
+   position: relative;
+   height: 35%;
+}
+
+.achive span div {
+
+   position: relative;
+   top: 30px;
+   margin: 20 50;
+}
+
+.expe span img {
+   border-radius: 20px;
+   border-style: solid;
+   top: 30px;
+   position: relative;
+   height: 35%;
+}
+
+.expe span div {
+   position: relative;
+   top: 30px;
+   margin: 20 50;
+}
+
+
+@media (max-width: 950px) {
+   .maindiv {
+      display: block;
+   }
+
+   .achive {
+      height: 40%;
+      position: relative;
+      top: 40px;
+
+   }
+
+   .expe {
+      height: 40%;
+      position: relative;
+      top: 100px;
+   }
+
+   .achive span img {
+      height: 30%;
+   }
+   #btn {
+      position: relative;
+      top: 20px;
+      background-color: blueviolet;
+   
+   }
+
+}
