@@ -8,6 +8,7 @@
    font-weight: 500;
    font-style: normal;
 
+
 }
 
 
@@ -117,9 +118,10 @@ main {
 }
 
 @media (max-width: 950px) {
-   main{
+   main {
       height: 100%;
    }
+
    .imp {
       display: block;
       text-align: center;
@@ -155,7 +157,7 @@ main {
 
    .first h1 {
       font-size: 30;
-      
+
    }
 
    #purple {
@@ -218,7 +220,7 @@ main {
    .intro1 {
       display: none;
    }
-   
+
    main {
       height: 155%;
    }
@@ -237,11 +239,13 @@ main {
    .intro {
       display: none;
    }
+
    .second img {
       margin-top: 50px;
       height: 250px;
    }
-   .intro1{
+
+   .intro1 {
       display: block;
    }
 
