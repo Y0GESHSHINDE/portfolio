@@ -79,9 +79,9 @@ main{
 #download {
 
    margin-right: 50px;
-   background-color: #df43ae;
+   background-color: #219ebc;
    color: white;
-   border-color: #df43ae;
+   border-color: #219ebc;
    /* position: relative; */
    margin-top: 10px;
 
@@ -89,7 +89,8 @@ main{
 
 #download a {
    text-decoration: none;
-   color: white;
+   color: #000814;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .intro {
@@ -204,9 +205,9 @@ main{
    #download {
 
       margin-right: 5px;
-      background-color: #df43ae;
+      background-color: #219ebc;
       color: white;
-      border-color: #df43ae;
+      border-color: #219ebc;
       margin-top: 10px;
 
    }
