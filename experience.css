@@ -43,7 +43,7 @@
 
 .expe {
    /* top: 10; */
-   background-color: slategrey;
+   background-color: #003049;
    border-radius: 30px;
    width: 80%;
    height: 50%;
@@ -64,6 +64,7 @@
    top: 30px;
    position: relative;
    height: 35%;
+   width: 35%;
 }
 
 .achive span div {
@@ -79,6 +80,7 @@
    top: 30px;
    position: relative;
    height: 35%;
+   width: 35%;
 }
 
 .expe span div {
@@ -87,7 +89,10 @@
    margin: 20 50;
 }
 
-
+#small{
+   margin-top: 5px;
+   font-size: 15px;
+}
 @media (max-width: 950px) {
    .maindiv {
       display: block;
@@ -109,12 +114,20 @@
    .achive span img {
       height: 30%;
    }
+   .expe span img{
+      height: 30%;
+      width: 30%;
+   }
 
    #btn {
       position: relative;
       top: 20px;
-      background-color: blueviolet;
+      background-color: 00b4d8;
+   }
 
+   #small{
+      margin-top: 5px;
+      font-size: 10px;
    }
 
 }
