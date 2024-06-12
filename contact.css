@@ -1,0 +1,60 @@
+.condiv{
+   /* background-color: tomato; */
+   /* display: flex; */
+   height: 100%;
+   align-items: center;
+   position: relative;
+   /* top: 10px; */
+
+}
+
+.social{
+   /* background-color: slategrey; */
+   text-align: center;
+   position: relative;
+   top: 30px;
+   height: 20%;
+}
+.form{
+   /* background-color: goldenrod; */
+   text-align: center;
+   height: 40%;
+   align-items: center;
+}
+.icondiv{
+   /* background-color: salmon; */
+   display: block;
+   width: 60%;
+   top: 20px;
+   left: 20%;
+   position: relative;
+}
+.icondiv a{
+   /* display: block; */
+   margin-left: 10px;
+   font-size: 80px;
+}
+
+.form{
+   position: relative;
+   top: 30px;
+}
+img {
+   font-size: 50px;
+}
+
+@media (max-width: 500px){
+   .social{
+      height: 30%;
+   }
+   .icondiv a{
+      display: block;
+      margin-left: 10px;
+   }
+
+
+}
+
+@media (max-width: 500px) and (min-width:950px){
+
+}
